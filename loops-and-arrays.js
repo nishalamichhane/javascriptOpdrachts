@@ -28,7 +28,7 @@ for (let i = 0; i < names.length; i++) {
 const numbers = [2, 4, 5, 29, 38];
 for (let i = 0; i < numbers.length; i++) {
    // console.log(numbers[i]);
-    if(numbers[i]%2==0){
+    if(numbers[i] % 2==0){
         console.log(numbers[i]*2);
     }else{
         console.log(numbers[i]*3);
@@ -55,8 +55,11 @@ for (let i = 0; i < numbers.length; i++) {
 const squares = [30, 2, 8, 24, 11];
 squaresLength=squares.length;
 for (let i = 0; i < squaresLength; i++) {
-    console.log(" Het volume van "+squares[i]+ " is "+ squares[i]*squares[i]*squares[i]);
+    //console.log(" Het volume van "+squares[i]+ " is "+ squares[i]*squares[i]*squares[i]);
+    let volume = squares[i]**3;
+    squares[i] = "het volume van " + squares [i] + " is " + volume;
 }
+console.log(squares);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
