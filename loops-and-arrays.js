@@ -72,3 +72,4 @@ console.log(squares);
 //   'Het volume van 24 is 13824',
 //   'Het volume van 11 is 1331'
 // ]
+
