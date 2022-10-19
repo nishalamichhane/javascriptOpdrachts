@@ -56,8 +56,8 @@ const squares = [30, 2, 8, 24, 11];
 squaresLength=squares.length;
 for (let i = 0; i < squaresLength; i++) {
     //console.log(" Het volume van "+squares[i]+ " is "+ squares[i]*squares[i]*squares[i]);
-    let volume = squares[i]**3;
-    squares[i] = "het volume van " + squares [i] + " is " + volume;
+    let vol = squares[i]**3;
+    squares[i] = "het volume van " + squares [i] + " is " + vol;
 }
 console.log(squares);
 
